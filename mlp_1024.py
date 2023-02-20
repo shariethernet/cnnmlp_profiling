@@ -37,7 +37,7 @@ def use_model():
             x_train_flattened,
             y_train_one_hot,
             epochs=1,
-            batch_size=32,
+            batch_size=1024,
             validation_split=0.75
             )
 
